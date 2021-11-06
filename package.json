@@ -1,0 +1,22 @@
+{
+  "name": "memory-game",
+  "version": "1.0.0",
+  "description": "A memory gam for the web progamming class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngelBLK/memory-game.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "DanteLK",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AngelBLK/memory-game/issues"
+  },
+  "homepage": "https://github.com/AngelBLK/memory-game#readme"
+}
