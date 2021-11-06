@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game</title>
+  <link rel="shortcut icon" href="./assets/pokeball.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <div id="loading">
+    <img src="assets/pokeball.png" alt="pokeball" class="rotation">
+    <p>Loading...</p>
+  </div>
+
+  <div id="game"></div>
+  <div class="info-game">
+    <div id="moves">Moves: 0</div>
+    <div id="time">00:00</div>
+    <button class="noSelect" onclick="start.newGame()">New Game</button>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
